@@ -1,15 +1,14 @@
 # DIO - Trilha .NET - Programação orientada a objetos
-www.dio.me
 
 ## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
+Este código em C# cria instâncias de dois tipos diferentes de smartphones: um Nokia e um iPhone. Ambos são subclasses da classe Smartphone.
+O desafio tratou de herança, polimorfismo, classes e métodos abstratos.
 
 ## Contexto
-Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+Após completar o curso de Programação orientada a objetos com C#, o aluno é desafiado a modelar um sistema que trabalha com celulares, solicitado uma abstração de um celular e que seja disponibilizado maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
 
 ## Proposta
-Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-Você deve criar as suas classes de acordo com o diagrama abaixo:
+O dever é criar objetos de acordo com o diagrama abaixo, seguindo as regras do próximo tópico:
 
 ![Diagrama classes](Imagens/diagrama.png)
 
@@ -19,4 +18,4 @@ Você deve criar as suas classes de acordo com o diagrama abaixo:
 3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
 ## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+Solucionado em 17 de dezembro de 2023 por @basiern no bootcamp Decola Tech em parceiria com a Avanade
